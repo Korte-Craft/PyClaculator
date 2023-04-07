@@ -1,7 +1,7 @@
 def calculator():
-    num1 = float(input("Kérem az első számot: "))
-    num2 = float(input("Kérem a második számot: "))
-    op = input("Válasszon egy műveletet (+, -, *, /): ")
+    num1 = float(input("First number: "))
+    num2 = float(input("KSecund number: "))
+    op = input("(+, -, *, /): ")
 
     if op == "+":
         print(f"{num1} + {num2} = {num1 + num2}")
@@ -12,7 +12,7 @@ def calculator():
     elif op == "/":
         print(f"{num1} / {num2} = {num1 / num2}")
     else:
-        print("Hibás műveleti jel!")
+        print("Error")
 
 
 calculator()  # Számológép indítása
