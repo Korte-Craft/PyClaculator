@@ -1,6 +1,6 @@
 def calculator():
     num1 = float(input("First number: "))
-    num2 = float(input("KSecund number: "))
+    num2 = float(input("Secund number: "))
     op = input("(+, -, *, /): ")
 
     if op == "+":
